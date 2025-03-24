@@ -4,41 +4,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/portfolio-de-negocios.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body id="body" class="vh-100">
-    <header>
-        <img src="img/fotoperfil.png" alt="Davi Rodrigues Suassuna">
-        <h1>Davi Rodrigues Suassuna</h1>
+<body id="body">
+    <header class="container-fluid col-sm-12 center">
+        <img id="foto" src="img/fotoperfil.png" alt="Davi Rodrigues Suassuna">
+        <br>
+        <h1 id="nome">Davi Rodrigues Suassuna</h1>
     </header>
-    <main class="container-fluid">
-        <div class="row">
-            <div class="d-flex flex-row col-sm-12 justify-content-center align-items-center my-5">
-                <img style="width: 6.25em;" src="img/whatsapp.png" alt="whatsapp">
-                <h3 style="color: white;">+55 (63) 99208-9058</h3>
+    <main>
+        <a href="https://wa.me/5563992089058">
+            <div id="caixa" class="row">
+                <div class="container-fluid col-sm-2" id="img-caixa">
+                    <img id="img" src="img/whatsapp.png" alt="whatsapp">
+                </div>
+                <div class="col-sm-10" id="text-caixa">
+                    <h3 id="text">Meu contato</h3>
+                </div>
             </div>
-            <div class="d-flex flex-row col-sm-12 justify-content-center align-items-center">
-                <img style="width: 5em;" src="img/instagram.png" alt="instagram">
-                <h3 style="color: white;">@davirsuassuna</h3>
+        </a>
+        <a href="#">
+            <div id="caixa" class="row">
+                <div class="container-fluid col-sm-2" id="img-caixa">
+                    <img id="img" src="img/instagram.png" alt="instagram">
+                </div>
+                <div class="col-sm-10" id="text-caixa">
+                    <h3 id="text">@davirsuassuna</h3>
+                </div>
             </div>
-            <div class="d-flex flex-row col-sm-12 justify-content-center align-items-center my-5">
-                <img style="width: 6em;" src="img/github.png" alt="github">
-                <h3 style="color: white;">DaviRS</h3>
+        </a>
+        <a href="https://github.com/DaviSuassunaunitins">
+            <div id="caixa" class="row">
+                <div class="container-fluid col-sm-2" id="img-caixa">
+                    <img  id="img"src="img/github.png" alt="github">
+                </div>
+                <div class="col-sm-10" id="text-caixa">
+                    <h3 id="text">DaviRS</h3>
+                </div>
             </div>
-            <div class="d-flex flex-row col-sm-12 justify-content-center align-items-center">
-                <img style="width: 6em;" src="img/linkedin.png" alt="linkedin">
-                <h3 style="color: white;">Davi Rodrigues Suassuna</h3>
+        </a>
+        <a href="#">
+            <div id="caixa" class="row">
+                <div class="container-fluid col-sm-2" id="img-caixa">
+                    <img id="img" src="img/linkedin.png" alt="linkedin">
+                </div>
+                <div class="col-sm-10" id="text-caixa">
+                    <h3 id="text">Davi Rodrigues Suassuna</h3>
+                </div>
             </div>
-            <div class="d-flex flex-row col-sm-12 justify-content-center align-items-center my-5">
-                <img style="width: 5em;" src="img/telegram.png" alt="telegram">
-                <h3 style="color: white;">+55 (63) 99208-9058</h3>
+        </a>
+        <a href="#">
+            <div id="caixa" class="row">
+                <div class="container-fluid col-sm-2" id="img-caixa">
+                    <img id="img" src="img/telegram.png" alt="telegram">
+                </div>
+                <div class="col-sm-10" id="text-caixa">
+                    <h3 id="text">Meu contato</h3>
+                </div>
             </div>
-        </div>
+        </a> 
     </main>
-    <footer class="fixed-bottom ">
-        <h5>©Powered by Davi Rodrigues Suassuna</h5>
+    <footer class="fixed-bottom col-sm-12 row">
+        <h3 id="copy">©Powered by Davi Rodrigues Suassuna</h3>
     </footer>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>

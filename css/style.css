@@ -4,7 +4,6 @@
 }
 #body {
     background-color: #333;
-    margin-bottom: 30em;
 }
 header {
     background-color: #6172C7;
@@ -17,13 +16,32 @@ header {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
+main {
+    margin-top: 1% !important;
+    margin-bottom: 30% !important;
+    margin-left: 25% !important;
+    margin-right: 25% !important;
+}
+a {
+    text-decoration: none !important;
+    color: white;
+}
 #caixa {
-    background-color: red;
-    padding-inline: 10em;
+    padding: 2em !important;
+    margin-top: 1em !important;
+    border-radius: 1em !important;
+    width: 100% !important;
     display: flex;
-    flex-direction: row;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
+    border: 2px solid white;
+}
+#img {
+    width: 80% !important;
+}
+#text {
+    font-size: 200% !important;
+    color: white;
 }
 footer {
     background-color: #6172C7;
@@ -31,4 +49,76 @@ footer {
     text-align: center;
     padding: 2em;
 }
-
+@media (min-width: 200px) and (max-width: 767px) {
+    #foto {
+        width: 50% !important;
+    }
+    #nome {
+        font-size: 150% !important;
+    }
+    #caixa {
+        padding: 2em !important;
+        margin-top: 1em !important;
+        border-radius: 1em !important;
+        width: auto !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid white;
+    }
+    #img-caixa {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #text-caixa {
+        text-align: center !important;
+    }
+    #img {
+        width: 50% !important;
+    }
+    #text {
+        font-size: 100% !important;
+        color: white;
+    } 
+    #copy {
+        font-size: 90% !important;
+        text-align: center;
+    }   
+}
+@media (min-width: 768px) and (max-width: 900px) {
+    #caixa {
+        padding: 2em !important;
+        margin-top: 1em !important;
+        border-radius: 1em !important;
+        width: auto !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid white;
+    }
+    #img-caixa {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #text-caixa {
+        text-align: center !important;
+    }
+    #img {
+        width: 200% !important;
+    }
+    #text {
+        font-size: 200% !important;
+        color: white;
+    } 
+    #nome {
+        font-size: 200% !important;
+    }
+    #copy {
+        font-size: 150% !important;
+        text-align: center;
+    }  
+}
